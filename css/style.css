@@ -2,10 +2,140 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .clearfix::after {
     content: '';
     display: table;
     clear: both;
+}
+
+.container {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+    /* DA CANCELLARE */
+    /* height: 100%;
+    background-color: orange;
+    border: 3px solid white; */
+}
+
+.blu {
+    background-color: #001a4f;
+    background-image: url('https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png');
+    background-position: center;
+    background-size: cover;
+    /* DA CANCELLARE */
+    /* height: 400px; */
+}
+
+header img {
+    height: 40px;
+    margin: 10px 40px 0 0;
+    float: left;
+}
+
+nav ul {
+    height: 70px;
+    color: white;
+    /* background-color: powderblue; */
+}
+
+nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    line-height: 70px;
+    padding: 0 10px;
+}
+
+ul.sx {
+    float: left;
+}
+
+ul.dx {
+    float: right;
+}
+
+.banner {
+    position: relative;
+    color: white;
+    /* DA CANCELLARE */
+    height: 330px;
+}
+
+.testo-banner {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.3em;
+    /* border: 1px solid white; */
+}
+
+.grigio {
+    position: relative;
+    background-color: #d3d3d3;
+    /* DA CANCELLARE */
+    height: 100px;
+}
+
+.grigio .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    line-height: 1.75;
+}
+
+.grigio h4 {
+    font-size: 1.25em;
+}
+
+.grigio p {
+    color: gray;
+}
+
+.bianco {
+    background-color: white;
+    /* DA CANCELLARE */
+    /* height: 300px; */
+}
+
+.box {
+    width: calc(100% / 3);
+    text-align: center;
+    border: 1px solid white;
+    float: left;
+    /* DA CANCELLARE */
+    /* height: 100%; */
+}
+
+.box img {
+    height: 150px;
+    margin: 20px 0;
+}
+
+.box h6 {
+    font-size: 1.25em;
+    font-weight: 500;
+    padding: 0 30px;
+    color: #7fb802;
+}
+
+hr {
+    margin: 15px auto;
+    width: 30px;
+    color: gray;
+}
+
+.box p {
+    font-size: 0.75em;
+    font-weight: 300;
+    line-height: 1.75em;
+    padding: 0 30px;
+    margin-bottom: 20px;
+    color: #999;
 }
